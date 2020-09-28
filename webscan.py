@@ -3,8 +3,8 @@ import socket
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
 print(s)
 
-server = "www.facebook.com"
-port = 80
+server = str(input("Target website: "))
+port = int(input("Enter the port number"))
 ip = socket.gethostbyname(server)
 print(ip)
 
