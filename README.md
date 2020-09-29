@@ -13,7 +13,7 @@ Its not only a powerful and popular, language, its the language in demand. Compa
 due to the rise in the field of AI and Internet of things (IOT), and Python has the support for it.
 -------------------------------------------------------------------------------------------------------------------------------------
 
-The purpose of Python_Magic is to Share a useful and simple and tools with explanation in the field of CyberSecurity.
+The purpose of Python_Magic is to Share a useful , simple and tools with explanation in the field of CyberSecurity.
 
 
 
