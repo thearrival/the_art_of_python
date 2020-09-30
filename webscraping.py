@@ -2,7 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 
 
-URL = str(input("Input the website URL: "))
-page = requests.get(URL)
+URL = raw_input("Input the website URL: ")
+page = requests.get("https://" + URL)
 
-soup = BeautifulSoup(page.content, 'html.parser')
+data = page.text
+
+soup = BeautifulSoup(data, "lxml")
+
+for link in soup.find_all('a'):
+      print(link.get('href'))
