@@ -6,9 +6,9 @@ from datetime import datetime
 
 
 
-print("-"*100)
+print("-"*110)
 print(datetime.now())
-print("-"*100)
+print("-"*110)
 
 print('''
 (1) get email 
