@@ -6,7 +6,7 @@ import socket
 
 #for activation.. AF_INET stands for IPv4, SOCK_STREAM = TCP protocol 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print(s)
+
 
 
 #Input the website 
