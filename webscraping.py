@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup
 URL = raw_input("Input the website URL: ")
 page = requests.get("https://" + URL)
 
-data = page.text
+info = page.text
 
-soup = BeautifulSoup(data, "lxml")
+soup = BeautifulSoup(info, "lxml")
 
 for link in soup.find_all('a'):
       print(link.get('href'))
