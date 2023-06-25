@@ -1,3 +1,6 @@
+#download hashlib module by perform the blow command...
+# pip install hashlib
+
 import hashlib
  
 flag = 0
