@@ -1,4 +1,4 @@
-#URLOPEN is a python module that works to gather html file for any website 
+# URLOPEN is a python module that works to gather html file for any website.
 
 from urllib.request import urlopen
 
