@@ -3,6 +3,7 @@
 from urllib.request import urlopen
 
 
+# assign html to urlopen module
 html = urlopen(input(" Enter the website URL: "))
 print("-"*60)
 print(html.read())
