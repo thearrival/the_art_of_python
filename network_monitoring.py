@@ -1,4 +1,9 @@
 import os 
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+print(s)
+
 b = 'sudo tshark -i eth0 -R "eth.dst==FF:FF:FF:FF:FF:FF" -a duration:60>output.txt'
 
 os.popen(b)
