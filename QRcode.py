@@ -4,7 +4,7 @@ import png
 
 from pyqrcode import QRCode
 
-# Paste any url or type anything you want to display it in the QRcode
+# Paste any url or type anything you want to display it in the qrcode
 QRstring = "https://www.linkedin.com/in/engismail2020/"
 
 url = pyqrcode.create(QRstring)
