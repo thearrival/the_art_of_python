@@ -1,3 +1,5 @@
+# Building an anonymous FTP scanner with Python, Written by Ismail.
+
 #!/usr/bin/python
 
 
@@ -16,3 +18,5 @@ def check(url, ip, ports, apps):
             return 'FTP anonymous Login !'
         except Exception as e:
             pass
+
+
